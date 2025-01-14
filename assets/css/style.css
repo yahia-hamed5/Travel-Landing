@@ -20,11 +20,10 @@ body {
 main {
   height: auto;
   position: relative;
-}
+  }
 
 header {
   background-color: var(--wihte);
-  /* border-bottom: 1px solid var(--dark); */
 }
 .navbar-brand i {
   color: var(--belu);
@@ -891,6 +890,8 @@ header {
 }
 /* End Cover App Section */
 
+
+
 /* Start Footer  */
 footer {
   width: 100%;
@@ -1227,8 +1228,8 @@ footer .brand-footer p {
 
   .inspir {
     width: 98%;
-    height: auto;
-    top: 3000px;
+    height: 50vh;
+    top: 3500px;
     left: 5px;
     gap: 1rem;
     /* border: 2px solid seagreen; */
@@ -1254,16 +1255,18 @@ footer .brand-footer p {
   /* Start hotel Section */
   .hotel {
     width: 98%;
-    height: auto;
-    top: 3950px;
+    height: 120vh;
+    top: 4450px;
     left: 5px;
-    gap: 1rem;
+    gap: 0;
+    /* background-color: #25292c; */
   }
   .hotel .title {
     width: 100%;
   }
   .hotel .cards-items {
     height: auto;
+    background-color: #fffffc;
     flex-wrap: wrap;
   }
 
@@ -1283,12 +1286,12 @@ footer .brand-footer p {
   /* Start Things ToDo Section */
   .todo {
     width: 98%;
-    top: 5520px;
+    height: 75vh;
+    top: 6050px;
     left: 5px;
-    height: 951px;
-  }
+ }
   .todo .relative {
-    height: auto;
+    height: 100%;
   }
   .todo .relative .todo-title {
     height: auto;
@@ -1306,15 +1309,15 @@ footer .brand-footer p {
   .todo .relative .body-todo .images .image-1 {
     width: 227px;
     height: 182px;
-    left: 0px;
+    left: 10pxpx;
   }
 
   .todo .relative .body-todo .images .image-2 {
-    width: 227px;
+    width: 300px;
     height: 182px;
     position: absolute;
     bottom: 0;
-    left: 150px;
+    left: 210px;
   }
 
   .todo .relative .body-todo .images .image-3 {
@@ -1331,16 +1334,16 @@ footer .brand-footer p {
   }
 
   .todo .relative .body-todo .images .image-5 {
-    width: 121px;
+    width: 220px;
     height: 182px;
-    right: 0px;
+    right: 10px;
     top: 0;
   }
 
   .todo .relative .body-todo .images .image-6 {
-    width: 121px;
+    width: 180px;
     height: 182px;
-    left: 0px;
+    left: 10px;
     bottom: 0px;
   }
 
@@ -1357,8 +1360,8 @@ footer .brand-footer p {
   /* Start Footprints Section */
   .footprint {
     width: 98%;
-    height: auto;
-    top: 6480px;
+    height: 70vh;
+    top: 7050px;
     left: 5px;
     justify-content: center;
   }
@@ -1379,7 +1382,7 @@ footer .brand-footer p {
   .cover {
     width: 98%;
     height: 212px;
-    top: 7300px;
+    top: 7990px;
     left: 5px;
   }
   .cover .image .blur .info {
@@ -1413,13 +1416,7 @@ footer .brand-footer p {
     width: 98%;
     height: 100vh;
     left: 5px;
-    top: 7600px;
-  }
-  footer {
-    width: 98%;
-    height: 100vh;
-    left: 5px;
-    top: 7600px;
+    top: 8300px;
   }
   footer .info-footer {
     width: 100%;
@@ -1445,19 +1442,20 @@ footer .brand-footer p {
     left: 10px;
   }
   footer .info-footer .info .explore {
-    top: 235px;
+    top: 250px;
     left: 10px;
   }
   footer .info-footer .info .terms {
-    top: 400px;
+    top: 415px;
     left: 10px;
   }
   footer .info-footer .info .help {
-    top: 570px;
+    top: 590px;
     left: 10px;
   }
   footer .brand-footer {
     display: none !important;
   }
+
   /* End Footer  */
 }
