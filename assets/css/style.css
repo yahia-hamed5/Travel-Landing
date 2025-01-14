@@ -1231,7 +1231,7 @@ footer .brand-footer p {
     top: 3000px;
     left: 5px;
     gap: 1rem;
-    border: 2px solid seagreen;
+    /* border: 2px solid seagreen; */
   }
   .inspir .title {
     width: 100%;
